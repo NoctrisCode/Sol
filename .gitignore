@@ -1,0 +1,13 @@
+# Personal Claude Code config (not shared)
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Gradle / Java build artifacts
+.gradle/
+build/
+*.class
+local.properties
+
+# IDE
+.idea/
+*.iml

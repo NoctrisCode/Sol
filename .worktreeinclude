@@ -1,0 +1,3 @@
+# gitignored files to copy into each new worktree
+.claude/settings.local.json
+local.properties
