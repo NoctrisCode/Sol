@@ -20,7 +20,7 @@ cd "$CLAUDE_PROJECT_DIR" || exit 0
 [[ -x ./gradlew ]] || exit 0
 
 # Exit 2 feeds violations back to Claude; trimmed to keep context small.
-if ! OUT=$(./gradlew "$TASK" --quiet 2>&1); then
+if ! OUT=$(./gradlew "$TASK" --warn 2>&1); then
     echo "$OUT" | tail -n 30 >&2
     exit 2
 fi

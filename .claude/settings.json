@@ -2,12 +2,14 @@
     "$schema": "https://json.schemastore.org/claude-code-settings.json",
     "permissions": {
         "allow": [
+            "Bash(git push:*)",
             "Bash(./gradlew build)",
             "Bash(./gradlew shadowJar)",
             "Bash(./gradlew checkstyleMain)",
             "Bash(./gradlew test)",
             "Bash(gh issue:*)",
             "Bash(gh pr:*)",
+            "PowerShell(git push:*)",
             "PowerShell(./gradlew build)",
             "PowerShell(./gradlew shadowJar)",
             "PowerShell(./gradlew checkstyleMain)",
@@ -15,7 +17,7 @@
             "PowerShell(gh issue:*)",
             "PowerShell(gh pr:*)"
         ],
-        "deny": ["Read(./**/*.credentials)", "Bash(git push:*)", "PowerShell(git push:*)"]
+        "deny": ["Read(./**/*.credentials)"]
     },
     "hooks": {
         "PreToolUse": [
