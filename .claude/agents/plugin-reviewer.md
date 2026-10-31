@@ -20,7 +20,7 @@ Review the branch diff against all of them; every rule applied, every changed fi
 Blockers:
 
 - Any `hub-restrictions.md` item, or any `plugin-hub.md` Forbidden Language Features item.
-- Template leftovers: `com.example`, `ExamplePlugin`, `ExampleConfig`, `example` config group, or template values in `build.gradle`, `settings.gradle`, `runelite-plugin.properties` (`git grep -i example -- src build.gradle settings.gradle runelite-plugin.properties` returns nothing).
+- Template leftovers, as listed in `plugin-hub.md` Plugin Setup & Packaging.
 - Config group not specific per `config.md`, or a renamed config group or key without a migration.
 - Work blocking the client thread: blocking IO, `Thread.sleep()`, OkHttp calls not `enqueue()`d, blocking in `startUp()`/`shutDown()`.
 - Missing `shutDown()` cleanup of overlays, subscriptions, listeners, scheduled tasks.

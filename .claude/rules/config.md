@@ -12,7 +12,7 @@ paths:
 Single source for config group names; the `new-plugin-config` skill defers here.
 
 - Declare the group as a constant and reference it: `String GROUP = "lostlegion<lowername>";` inside the interface, annotated `@ConfigGroup(<Name>Config.GROUP)`. `<lowername>` is the config name lowercased, e.g. `SolConfig` → `"lostlegionsol"`.
-- Group names must be specific: `"deadman-prices"`, not `"deadman"`. The `lostlegion` prefix keeps Sol's groups clear of other plugins.
+- Group names must be specific: `"lostlegiondeadmanprices"`, not `"lostlegiondeadman"`. The `lostlegion` prefix keeps Sol's groups clear of other plugins.
 
 ## Changing config
 

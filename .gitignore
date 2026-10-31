@@ -1,6 +1,7 @@
 # Personal Claude Code config (not shared)
 .claude/settings.local.json
 CLAUDE.local.md
+.claude/worktrees/
 
 # Gradle / Java build artifacts
 .gradle/
