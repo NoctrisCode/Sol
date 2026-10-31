@@ -7,7 +7,15 @@ CLAUDE.local.md
 build/
 *.class
 local.properties
+out/
+*.tmp
 
 # IDE
 .idea/
 *.iml
+.project
+.settings/
+.classpath
+nbactions.xml
+nb-configuration.xml
+nbproject/
